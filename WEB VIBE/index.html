@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profilku</title>
+<meta name="description" content="Portofolio Nama Kamu, Software Developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+<header class="nav">
+  <a class="logo" href="#top">&lt;/&gt; NAMA DEV</a>
+  <button class="burger" aria-label="Buka menu" aria-expanded="false">Menu</button>
+  <nav id="menu">
+    <a href="#skills">Skill</a><a href="#projects">Proyek</a><a href="#experience">Pengalaman</a><a href="#certs">Sertifikat</a><a href="#about">Tentang</a>
+  </nav>
+  <a class="nav-cta" href="#contact">Hubungi saya</a>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-left grid-bg">
+    <span class="tag">Halo, saya Ridho Maulana</span>
+    <h1>Promt<br>Engginer</h1>
+    <p>Saya membuat aplikasi web yang scalable dan mengubah ide menjadi produk yang berdampak dengan kode yang bersih dan efisien.</p>
+    <div class="btns">
+      <a class="btn lime" href="#projects">Lihat karya</a>
+      <a class="btn" href="assets/cv.pdf" download>Unduh CV</a>
+    </div>
+    <p class="small">Terhubung dengan saya</p>
+    <div class="socials">
+      <a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+      <a href="https://linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+      <a href="https://www.instagram.com/rdhomalna_?stkn=YjU4anl3c3Fvb2Rt" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+      <a href="mailto:email@kamu.com" aria-label="Email">@</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="photo-wrap">
+      <img src="image/fotoku.jpeg" alt="Foto Nama Kamu" data-fallback>
+    </div>
+    <pre class="code"><span class="c1">&gt; const</span> <span class="c2">developer</span> = {
+  <span class="c3">kode</span>: <span class="c4">'JavaScript'</span>,
+  <span class="c3">bangun</span>: <span class="c4">'React'</span>,
+  <span class="c3">deploy</span>: <span class="c4">'Vercel'</span>,
+  <span class="c3">semangat</span>: <span class="c4">'Memecahkan masalah'</span>
+}</pre>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="skills-title">SKILL</div>
+  <ul>
+    <li><b>⚛️</b>React</li><li><b>JS</b>JavaScript</li><li><b>⬢</b>Node.js</li>
+    <li><b>〰️</b>Tailwind</li><li><b>🍃</b>MongoDB</li><li><b>⑂</b>Git</li>
+  </ul>
+</section>
+
+<section class="mid">
+  <div class="projects" id="projects">
+    <div class="row">
+      <h2>PROYEK UNGGULAN</h2>
+      <div class="arrows">
+        <button id="prev" aria-label="Proyek sebelumnya">‹</button>
+        <button id="next" aria-label="Proyek berikutnya">›</button>
+      </div>
+    </div>
+    <article class="card" id="card" aria-live="polite">
+      <div class="card-art" id="art"></div>
+      <div class="card-body">
+        <h3 id="p-title"></h3>
+        <p id="p-desc"></p>
+        <div class="chips" id="p-tags"></div>
+        <a class="btn" id="p-link" href="#" target="_blank" rel="noopener">Lihat detail</a>
+      </div>
+    </article>
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <aside class="certs" id="certs">
+    <h2>SERTIFIKASI</h2>
+    <div class="cert c1">BELUM UPLOAD</div>
+    <div class="cert c2">BELUM UPLOAD</div>
+    <div class="cert c3">BELUM UPLOAD</div>
+    <a class="btn" href="#">Lihat semua sertifikat</a>
+  </aside>
+</section>
+
+<section class="bottom" id="experience">
+  <div class="exp-title"><h2>PENGALAMAN</h2></div>
+  <div class="timeline">
+    <div class="job">
+      <h3>Promt Engginer • Google</h3>
+      <small>2026 – Sekarang</small>
+      <p>Lebih dari 50+ AI yang sudah saya gunakan.</p>
+    </div>
+    <div class="job">
+      <h3>Web Developer • Google</h3>
+      <small>2025 – 2026</small>
+      <p>Membangun website marketing interaktif dan tools internal untuk berbagai klien.</p>
+    </div>
+    <div class="job">
+      <h3>Junior Developer • SMKN 1 Sumbawa Besar</h3>
+      <small>2022 – 2025</small>
+      <p>Membuat Sistem Kasir.</p>
+    </div>
+    <a class="btn" href="assets/cv.pdf" download>Lihat CV lengkap</a>
+  </div>
+  <div class="cta grid-bg-dark" id="contact">
+    <h2>MARI BANGUN SESUATU YANG LUAR BIASA.</h2>
+    <a class="btn" href="mailto:email@kamu.com">Hubungi saya</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>TENTANG SAYA</h2>
+  <p>Saya Ridho Maulana sebagai promt engginer di perusahaan google,saya masi berkuliah di Universitas Teknologi Sumbawa, sekarang saya semester 3. Saya belajar promt kurang lebih 1 tahun sejak saya masuk di bangku perkuliahan dan saya coba melamar kerja di google dan alhamddulillah saya di terima.</p>
+</section>
+
+<footer class="foot">
+  <a class="logo" href="#top">&lt;/&gt; PROMT ENGGINER</a>
+  <span>© <span id="year">2026</span> Ridho Maulana. Semua hak dilindungi.</span>
+  <div class="socials"><a href="https://github.com/" aria-label="GitHub">GH</a><a href="https://linkedin.com/" aria-label="LinkedIn">in</a><a href="mailto:email@kamu.com" 
+  aria-label="Email">@</a></div>
+</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
